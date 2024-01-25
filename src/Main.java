@@ -5,7 +5,7 @@ public class Main {
         String city = "Columbus";
         Integer zipCode = 43123;
         double avgHighTemp[] = {74,36,20,95,91};
-        int sum = 0;
+        double sum = 0;
         int length = avgHighTemp.length;
         for (int i = 0; i < length; i++) {
             sum += avgHighTemp[i];
